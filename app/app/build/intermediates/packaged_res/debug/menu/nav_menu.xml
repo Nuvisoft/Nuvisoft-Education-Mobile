@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+      android:title="Inico"/>
+    <item android:id="@+id/nav_asignaturas"
+        android:title="Asignaturas"/>
+    <item android:id="@+id/nav_notasactuales"
+        android:title="Notas Actuales"/>
+    <item android:id="@+id/nav_notasfinales"
+        android:title="Notas Finales"/>
+    <item android:id="@+id/nav_primer_parcial"
+        android:title="Primer Parcial"/>
+    <item android:id="@+id/nav_segundo_parcial"
+        android:title="Segundo Parcial"/>
+    <item android:id="@+id/nav_tercer_parcial"
+        android:title="Tercer Parcial"/>
+    <item android:id="@+id/nav_cuarto_parcial"
+        android:title="Cuarto Parcial"/>
+
+
+</menu>

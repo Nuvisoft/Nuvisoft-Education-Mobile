@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Sistematico_mate">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Nombre Completo"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/EditN"
+        android:layout_width="341dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/black"
+        android:hint="  Escribe tu nombre"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top" />
+
+    <TextView
+        android:id="@+id/txtpregunta_1"
+        android:layout_width="379dp"
+        android:layout_height="89dp"
+        android:text="Un vendedor recibe $215.000 de sueldo, al mes, más un 8% de las ventas por comisión.
+                      ¿Cuanto debe vender para ganar $317.000 en el mes?"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <LinearLayout
+        android:layout_width="391dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="268dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A) 4254.625" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B) $532.000" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C) 1.275.00" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtproblema2"
+        android:layout_width="363dp"
+        android:layout_height="68dp"
+        android:text="Un depósito contiene 20 litros que equivalen al 25% de su capacidad, entonces para que llegue al 30% de su capacidad hay que agregar"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="422dp">
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A) 4 litros" />
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B) 24 litros" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C) Ninguno de los anteriores" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtpregunta_3"
+        android:layout_width="392dp"
+        android:layout_height="61dp"
+        android:text="Un folleto consta de 40 páginas. De ellas el 20% es geometria, el 10% es álgebra y el resto astronomia. Luego las páginas dedicadas a la astronomia son: "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="604dp">
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A) 4 " />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B) 28" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C) 12" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtporcentajes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="Porcentajes"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
